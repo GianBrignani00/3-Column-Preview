@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap'); /* font-family: 'Lexend Deca', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap'); /* font-family: 'Big Shoulders Display', sans-serif; */
+
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    display: flex;
+    height: 534px;
+    width: 980px;
+    border-radius: 10px;
+}
+
+h2{
+    color: #FFF;
+    font-family: 'Big Shoulders Display', sans-serif ;
+    font-size: 40px;
+    font-weight:700;
+    text-transform: uppercase;
+}
+
+p{
+    color: #FFF;
+    font-family: 'Lexend Deca', sans-serif ;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+button{
+    background: #FFF;
+    width: 135px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+}
+
+button a{
+    text-decoration: none;
+}
+
+button:hover{
+    background: transparent;
+    border: 2px solid #FFF;
+    color: #FFF;
+}
+
+.sedan{
+    display: grid;
+    background: #E28525;
+    padding: 40px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.sedan img{
+    margin-top: 30px;
+}
+
+.sedan h2{
+    margin: 30px 0px 10px 0px;
+}
+
+.sedan p{
+    margin-bottom: 90px;
+    width: 200px;
+}
+
+.sedan button{
+    color: #E28525;
+    font-weight: 500;
+}
+
+.suvs{
+    display: grid;
+    background: #016972;
+    padding: 40px;
+}
+
+.suvs img{
+    margin-top: 30px;
+}
+
+.suvs h2{
+    margin: 30px 0px 10px 0px;
+}
+
+.suvs p{
+    margin-bottom: 90px;
+    width: 207px;
+}
+
+.suvs button{
+    color: #016972;
+    font-weight: 500;
+}
+
+.luxury{
+    display: grid;
+    background: #00403F;
+    padding: 40px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.luxury img{
+    margin-top: 30px;
+}
+
+.luxury h2{
+    margin: 30px 0px 10px 0px;
+}
+
+.luxury p{
+    margin-bottom: 75px;
+    width: 188px;
+}
+
+.luxury button{
+    color: #00403F;
+    font-weight: 500;
+}
+
+.footer{
+text-align: center;
+margin-right: 175px;
+}
+
+@media (max-width: 500px){
+    .container{
+        display: block;
+    }
+
+    .sedan{
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .luxury{
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    .footer{
+        display: none;
+    }
+}
